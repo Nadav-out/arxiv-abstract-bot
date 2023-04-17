@@ -1,14 +1,20 @@
-# arxiv-abstract-bot
+# Arxiv Abstract Bot for Slack
 
-A Slack bot that detects arxiv PDF links in messages and returns the corresponding abstract link.
+A Slack bot that listens for messages containing arXiv PDF links and automatically returns the abstract link. No need to tag the bot, and it works across all channels.
 
-## Usage
+## Features
+- No need to tag the bot
+- Listens to all channels
+- Supports older papers
 
-1. Add the bot to your Slack workspace.
-2. Invite the bot to any channels where you want it to be active.
-3. When someone sends an arxiv PDF link, the bot will automatically respond with the abstract link.
+## Getting Started
+Follow the steps below to set up the bot for your Slack workspace.
 
-For example:
+### Prerequisites
+- Python 3.7 or higher
+- A Slack App with the following features and permissions:
+  - Event Subscriptions: message.channels
+  - Bot Token Scopes: chat:write, channels:history
 
-User: https://arxiv.org/pdf/2209.06216.pdf
-Bot: Please consider sharing the abstract link instead: https://arxiv.org/abs/2212.08098
+### Installation
+1. Clone this repository
