@@ -1,7 +1,6 @@
 # arXiv Abstract Link Bot
 
-This Slack bot listens for messages containing arXiv PDF links and automatically replies with the corresponding arXiv abstract links. It encourages users to share abstract links instead of PDFs.
-
+This Slack bot listens for messages containing arXiv PDF links and automatically replies with the corresponding arXiv abstract links. 
 ## Requirements
 
 - Python 3.6+
